@@ -72,3 +72,118 @@
     margin-left: auto;
     margin-right: auto;
   }
+  footer{
+    margin-top: 123px;
+    margin-bottom: 23px;
+    text-align: center;
+    background-color: rgb(74, 111, 233);
+  }
+  footer .tieude{
+  font-size: 30px;
+  font-family: segoe ui;
+  color: white;
+  text-align: center;
+  padding: 50px 0 15px 0;
+  text-transform: uppercase;
+
+  }
+  footer .mota3{
+    display: block;
+    text-align: center;
+    font-family: segoe ui;
+    font-size: 20px;
+    width: 70%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    margin: 0 auto 0 auto;
+    color: white;
+  }
+  
+  footer .inputtext {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 625px;
+  }
+  
+  footer .inputtext .nameemail {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-column-gap: 26px;
+  }
+  
+  footer .nameemail .inputleft input {
+    width: 415px;
+    background-color: #254299;
+    height: 60px;
+    border-radius: 7px;
+    border: none;
+    margin-left: -110px;
+  }
+  
+  footer .nameemail .inputright input {
+    padding-right: 0px;
+    width: 415px;
+    right: 0px;
+    background-color: #254299;
+    height: 60px;
+    border-radius: 7px;
+    border: none;
+  }
+  
+  footer .inputtext #message {
+    border-radius: 7px;
+    background-color: #254299;
+    border: none;
+    grid-column: 1/3;
+    width: 853px;
+    height: 200px;
+    margin-left: -110px;
+  }
+  footer button {
+    display: block;
+    text-align: center;
+    background-color: #48c3ec;
+    width: 295px;
+    height: 70px;
+    font-family: 'TitilliumWeb-SemiBoldItalic', sans-serif;
+    border: none;
+    border-bottom: 5px solid #299ec5;
+    border-radius: 7px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 60px;
+    margin-bottom:115px ;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contactfooter{
+    background-color: rgb(87, 57, 221);
+    width: 1500px;
+    height: 110px;
+    margin-left: -500px;  
+  }
+  footer ul.contact {
+    display: flex;
+    list-style: none;
+    width: 800px;
+    align: center;
+    margin-left: 275px;
+    margin-right: auto;
+    margin-top: 140px;
+    font-size: 20px;
+  }
+  
+  footer ul.contact a {
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-family: 'Titillium Web-SemiBoldItalic', sans-serif;
+    padding: 45px 35px 40px 35px;
+    transition: 0.4s;
+  }
+  
+  footer ul.contact a:hover {
+    color: #3286bd;
+  }
